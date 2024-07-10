@@ -281,3 +281,19 @@ main{
     border: none;
     border-radius:10px;
 }
+/* challenge part style */
+.footer{
+    max-width: 1440px;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding:20px 130px;
+}
+.footer h1{
+    font-size:20px;
+    font-weight: 800;
+    color: #0D1321;
+}
+.social-icon a{
+    margin-left:10px;
+}
