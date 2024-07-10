@@ -194,7 +194,7 @@ main{
 .card-items .card-item{
     width:364px;
     height:299px;
-    padding:40px;
+    padding:30px;
 }
 .card-item h1{
    text-align: left;
@@ -210,11 +210,16 @@ main{
     margin-bottom:24px;
 }
 .card-item a{
+    width:100px;
+    height:50px;
     text-align:left;
     font-size:16px;
     font-weight:bold;
     color:#0D1321;
-
+    margin-bottom:24px;
+}
+.card-item.item-css a{
+    margin-top:20px;
 }
 .card-item.item-html{
    background-color:#f5ae9ae0;
@@ -224,4 +229,55 @@ main{
 }
 .card-item.item-js{
  background-color:#fcf7d5;
+}
+/* support section style */
+.support{
+    width: 1140px;
+    height:300px;
+    background-color:rgba(0,0,0,0.6);
+    background-image:url("./B10A1-Challenge-Begins/assets/handshake.jpg");
+    background-blend-mode: overlay;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:20px auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+    border-radius:10px;
+}
+.support h2{
+    width:730px;
+    text-align: center;
+    color:#FFFFFF;
+    font-size: 32px;
+    font-weight: bold;
+}
+.support p{
+    width:730px;
+    text-align: center;
+    font-size:16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.support form{
+    width:684px;
+    height:57px;
+    text-align: center;
+}
+.support form input{
+    width:60%;
+    height:57px;
+    border:none;
+    border-radius:10px;
+    padding-left:10px;
+    font-size:16px;
+}
+.support form button{
+    width:30%;
+    height: 57px;
+    border: none;
+    border-radius:10px;
 }
